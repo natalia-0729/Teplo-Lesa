@@ -229,6 +229,7 @@
     }
     &__subnav-icon{
       display: block;
+      height: 12px;
     }
 
     &__phone{
@@ -268,10 +269,13 @@
     }
     &-social{
       display: flex;
+      align-items: center;
       margin-top: 15px;
     }
     &-icon{
       margin-right: 4px;
+      height: 16px;
+      width: 16px;
     }
   }
 
@@ -311,6 +315,8 @@
     }
     &__menu-back-img{
       margin-left: calc( (100vw - 320px)/(1240 - 320) * (40 - 20) + 20px);
+      height: 12px;
+      margin-top: 17px;
     }
     &__menu-link--back{
       padding: 15px 40px 15px 10px;
