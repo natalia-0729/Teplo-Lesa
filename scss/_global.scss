@@ -1,0 +1,35 @@
+.body{
+  background-color: #FFF;
+  font-family: 'Manrope', sans-serif;
+  color: #333;
+}
+.main{
+  overflow: hidden;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: calc( (100vw - 320px)/(1920 - 320) * (36 - 20) + 20px);
+  line-height: calc( (100vw - 320px)/(1920 - 320) * (46 - 26) + 26px);
+  letter-spacing: 1.3px;
+  color: #333;
+}
+
+.btn{
+  background: linear-gradient(165.46deg, #FF9700 10.14%, #FF6800 78.17%, #FF6802 78.33%);
+  border-radius: 50px;
+  color: #FFF;
+  font-size: calc( (100vw - 320px)/(1920 - 320) * (16 - 14) + 14px);
+  line-height: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover{
+    background: #FF5C00;
+  }
+}
